@@ -9,7 +9,7 @@ import (
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
-	"github.com/jhaals/puppet-anvil/api"
+	"github.com/nithinphilips/puppet-anvil/api"
 )
 
 // Create a new AnvilService
