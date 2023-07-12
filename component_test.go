@@ -7,8 +7,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/jhaals/puppet-anvil/api"
-	"github.com/jhaals/puppet-anvil/service"
+	"github.com/nithinphilips/puppet-anvil/api"
+	"github.com/nithinphilips/puppet-anvil/service"
 
 	. "gopkg.in/check.v1"
 )
