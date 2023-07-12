@@ -63,7 +63,7 @@ type Release struct {
 }
 
 type Pagination struct {
-	Next bool `json:"next"`
+	Next *string `json:"next"`
 }
 type Response struct {
 	Results    []Result `json:"results"`
