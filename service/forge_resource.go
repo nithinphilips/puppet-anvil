@@ -74,7 +74,7 @@ func (f *ForgeResource) GetReleases(w http.ResponseWriter, r *http.Request) {
 
 	response := &api.Response{
 		Pagination: api.Pagination{
-			Next: false, // nil?
+			Next: nil, // nil?
 		},
 		Results: results,
 	}
@@ -96,7 +96,7 @@ func (f *ForgeResource) GetModules(w http.ResponseWriter, r *http.Request) {
 
 	response := &api.Response{
 		Pagination: api.Pagination{
-			Next: false, // nil?
+			Next: nil, // nil?
 		},
 		Results: results,
 	}
